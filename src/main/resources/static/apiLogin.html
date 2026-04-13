@@ -10,7 +10,7 @@
 <script>
     document.querySelector(".btn1").addEventListener("click", () => {
         axios.post("http://localhost:8080/generateToken", {
-            mid: "apiuser10",
+            mid: "apiuser100",
             mpw: "11111"
         }).then(response => {
             alert("AccessToken: " + response.data.accessToken);
